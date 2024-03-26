@@ -3,11 +3,21 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/goToBlur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="跳转到bluractivity"
-        ></Button>
+
+<!--    <blink-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+        <Button
+            android:id="@+id/goToBlur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转到bluractivity" />
+<!--    </blink>-->
+
+        <com.example.opencvapp.opengl.MyGLSurfaceView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
 
 </LinearLayout>
